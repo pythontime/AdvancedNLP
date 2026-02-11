@@ -7,15 +7,9 @@
 [![Data For Science Substack](https://img.shields.io/badge/Data_For_Science_Substack-Subscribe-blue)](https://data4sci.substack.com/)
 [![Data Science Briefing](https://img.shields.io/badge/Data_Science_Briefing-Subscribe-blue)](https://data4science.ck.page/a63d4cc8d9)
 
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/AdvancedNLP/master)
-
-
 # NLP with PyTorch
 
 ### Code and slides to accompany the online series of webinars: https://data4sci.com/nlp-with-pytorch by Data For Science.
-
-### Run the code in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataForScience/AdvancedNLP/master)
 
 Natural Language lies at the heart of current developments in Artificial Intelligence, User Interaction, and Information Processing. The combination of unprecedented corpora of written text provided by social media and the massification of computational power has led to increased interest in the development of modern NLP tools based on state-of-the-art Deep Learning tools.
 
