@@ -54,3 +54,24 @@ In this course, participants are introduced to the fundamental concepts and algo
 - Text Generation
 
 <!-- Slides: https://data4sci.com/landing/advanced-nlp -->
+
+## Author
+
+<table border="0">
+ <tr>
+        <td>
+          <img src="data/bgoncalves.png" alt="Bruno Gonçalves" width="150" height="150" style="border-radius: 50%; object-fit: cover;">
+        </td>
+        <td>
+          <h2>Bruno Gonçalves</h2>
+          <h3>Data For Science, Inc.</h3>
+          <p>
+                        Web: <a href="http://www.data4sci.com/">www.data4sci.com</a><br>
+                        Twitter/X: <a href="https://twitter.com/bgoncalves">@bgoncalves</a><br>
+                        LinkedIn: <a href="https://www.linkedin.com/in/bmtgoncalves/">@bmtgoncalves</a><br>
+                        Email: <a href="info@data4sci.com">info@data4sci.com</a><br>
+                        Schedule a Call: <a href="https://data4sci.com/call">https://data4sci.com/call</a>
+          </p>
+        </td>
+ </tr>
+</table>
