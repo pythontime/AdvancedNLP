@@ -69,3 +69,74 @@ In this course, participants are introduced to the fundamental concepts and algo
         </td>
  </tr>
 </table>
+
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10 or higher (up to 3.13)
+- macOS, Linux, or Windows
+
+### Installation
+
+#### Option 1: Using uv (Recommended)
+
+[uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver. If you don't have it installed:
+
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Then clone and setup the repository:
+
+```bash
+# Clone the repository
+git clone https://github.com/DataForScience/AdvancedNLP.git
+cd AdvancedNLP
+
+# Install dependencies
+uv sync
+
+# Run Jupyter
+uv run jupyter notebook
+```
+
+#### Option 2: Using pip and venv
+
+```bash
+# Clone the repository
+git clone https://github.com/DataForScience/AdvancedNLP.git
+cd AdvancedNLP
+
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+# On macOS/Linux:
+source .venv/bin/activate
+# On Windows:
+.venv\Scripts\activate
+
+# Install dependencies
+pip install -e .
+
+# Run Jupyter
+jupyter notebook
+```
+
+### Hardware Acceleration
+
+This project supports hardware acceleration for faster training:
+- **Apple Silicon (M1/M2/M3)**: Automatically uses MPS (Metal Performance Shaders) backend
+- **NVIDIA GPUs**: Automatically uses CUDA if available
+- **CPU**: Falls back to CPU if no GPU is available
+
+### Running the Notebooks
+
+Once Jupyter is running, open any of the numbered notebooks:
+1. Foundations of NLP.ipynb
+2. Neural Networks with PyTorch.ipynb
+3. Text Classification.ipynb
+4. Word Embeddings.ipynb
+5. Sequence Modeling.ipynb
